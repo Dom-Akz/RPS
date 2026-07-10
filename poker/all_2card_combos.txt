@@ -1,0 +1,1326 @@
+   1. 2s 2c
+   2. 2s 2d
+   3. 2s 2h
+   4. 2s 3s
+   5. 2s 3c
+   6. 2s 3d
+   7. 2s 3h
+   8. 2s 4s
+   9. 2s 4c
+  10. 2s 4d
+  11. 2s 4h
+  12. 2s 5s
+  13. 2s 5c
+  14. 2s 5d
+  15. 2s 5h
+  16. 2s 6s
+  17. 2s 6c
+  18. 2s 6d
+  19. 2s 6h
+  20. 2s 7s
+  21. 2s 7c
+  22. 2s 7d
+  23. 2s 7h
+  24. 2s 8s
+  25. 2s 8c
+  26. 2s 8d
+  27. 2s 8h
+  28. 2s 9s
+  29. 2s 9c
+  30. 2s 9d
+  31. 2s 9h
+  32. 2s Ts
+  33. 2s Tc
+  34. 2s Td
+  35. 2s Th
+  36. 2s Js
+  37. 2s Jc
+  38. 2s Jd
+  39. 2s Jh
+  40. 2s Qs
+  41. 2s Qc
+  42. 2s Qd
+  43. 2s Qh
+  44. 2s Ks
+  45. 2s Kc
+  46. 2s Kd
+  47. 2s Kh
+  48. 2s As
+  49. 2s Ac
+  50. 2s Ad
+  51. 2s Ah
+  52. 2c 2d
+  53. 2c 2h
+  54. 2c 3s
+  55. 2c 3c
+  56. 2c 3d
+  57. 2c 3h
+  58. 2c 4s
+  59. 2c 4c
+  60. 2c 4d
+  61. 2c 4h
+  62. 2c 5s
+  63. 2c 5c
+  64. 2c 5d
+  65. 2c 5h
+  66. 2c 6s
+  67. 2c 6c
+  68. 2c 6d
+  69. 2c 6h
+  70. 2c 7s
+  71. 2c 7c
+  72. 2c 7d
+  73. 2c 7h
+  74. 2c 8s
+  75. 2c 8c
+  76. 2c 8d
+  77. 2c 8h
+  78. 2c 9s
+  79. 2c 9c
+  80. 2c 9d
+  81. 2c 9h
+  82. 2c Ts
+  83. 2c Tc
+  84. 2c Td
+  85. 2c Th
+  86. 2c Js
+  87. 2c Jc
+  88. 2c Jd
+  89. 2c Jh
+  90. 2c Qs
+  91. 2c Qc
+  92. 2c Qd
+  93. 2c Qh
+  94. 2c Ks
+  95. 2c Kc
+  96. 2c Kd
+  97. 2c Kh
+  98. 2c As
+  99. 2c Ac
+ 100. 2c Ad
+ 101. 2c Ah
+ 102. 2d 2h
+ 103. 2d 3s
+ 104. 2d 3c
+ 105. 2d 3d
+ 106. 2d 3h
+ 107. 2d 4s
+ 108. 2d 4c
+ 109. 2d 4d
+ 110. 2d 4h
+ 111. 2d 5s
+ 112. 2d 5c
+ 113. 2d 5d
+ 114. 2d 5h
+ 115. 2d 6s
+ 116. 2d 6c
+ 117. 2d 6d
+ 118. 2d 6h
+ 119. 2d 7s
+ 120. 2d 7c
+ 121. 2d 7d
+ 122. 2d 7h
+ 123. 2d 8s
+ 124. 2d 8c
+ 125. 2d 8d
+ 126. 2d 8h
+ 127. 2d 9s
+ 128. 2d 9c
+ 129. 2d 9d
+ 130. 2d 9h
+ 131. 2d Ts
+ 132. 2d Tc
+ 133. 2d Td
+ 134. 2d Th
+ 135. 2d Js
+ 136. 2d Jc
+ 137. 2d Jd
+ 138. 2d Jh
+ 139. 2d Qs
+ 140. 2d Qc
+ 141. 2d Qd
+ 142. 2d Qh
+ 143. 2d Ks
+ 144. 2d Kc
+ 145. 2d Kd
+ 146. 2d Kh
+ 147. 2d As
+ 148. 2d Ac
+ 149. 2d Ad
+ 150. 2d Ah
+ 151. 2h 3s
+ 152. 2h 3c
+ 153. 2h 3d
+ 154. 2h 3h
+ 155. 2h 4s
+ 156. 2h 4c
+ 157. 2h 4d
+ 158. 2h 4h
+ 159. 2h 5s
+ 160. 2h 5c
+ 161. 2h 5d
+ 162. 2h 5h
+ 163. 2h 6s
+ 164. 2h 6c
+ 165. 2h 6d
+ 166. 2h 6h
+ 167. 2h 7s
+ 168. 2h 7c
+ 169. 2h 7d
+ 170. 2h 7h
+ 171. 2h 8s
+ 172. 2h 8c
+ 173. 2h 8d
+ 174. 2h 8h
+ 175. 2h 9s
+ 176. 2h 9c
+ 177. 2h 9d
+ 178. 2h 9h
+ 179. 2h Ts
+ 180. 2h Tc
+ 181. 2h Td
+ 182. 2h Th
+ 183. 2h Js
+ 184. 2h Jc
+ 185. 2h Jd
+ 186. 2h Jh
+ 187. 2h Qs
+ 188. 2h Qc
+ 189. 2h Qd
+ 190. 2h Qh
+ 191. 2h Ks
+ 192. 2h Kc
+ 193. 2h Kd
+ 194. 2h Kh
+ 195. 2h As
+ 196. 2h Ac
+ 197. 2h Ad
+ 198. 2h Ah
+ 199. 3s 3c
+ 200. 3s 3d
+ 201. 3s 3h
+ 202. 3s 4s
+ 203. 3s 4c
+ 204. 3s 4d
+ 205. 3s 4h
+ 206. 3s 5s
+ 207. 3s 5c
+ 208. 3s 5d
+ 209. 3s 5h
+ 210. 3s 6s
+ 211. 3s 6c
+ 212. 3s 6d
+ 213. 3s 6h
+ 214. 3s 7s
+ 215. 3s 7c
+ 216. 3s 7d
+ 217. 3s 7h
+ 218. 3s 8s
+ 219. 3s 8c
+ 220. 3s 8d
+ 221. 3s 8h
+ 222. 3s 9s
+ 223. 3s 9c
+ 224. 3s 9d
+ 225. 3s 9h
+ 226. 3s Ts
+ 227. 3s Tc
+ 228. 3s Td
+ 229. 3s Th
+ 230. 3s Js
+ 231. 3s Jc
+ 232. 3s Jd
+ 233. 3s Jh
+ 234. 3s Qs
+ 235. 3s Qc
+ 236. 3s Qd
+ 237. 3s Qh
+ 238. 3s Ks
+ 239. 3s Kc
+ 240. 3s Kd
+ 241. 3s Kh
+ 242. 3s As
+ 243. 3s Ac
+ 244. 3s Ad
+ 245. 3s Ah
+ 246. 3c 3d
+ 247. 3c 3h
+ 248. 3c 4s
+ 249. 3c 4c
+ 250. 3c 4d
+ 251. 3c 4h
+ 252. 3c 5s
+ 253. 3c 5c
+ 254. 3c 5d
+ 255. 3c 5h
+ 256. 3c 6s
+ 257. 3c 6c
+ 258. 3c 6d
+ 259. 3c 6h
+ 260. 3c 7s
+ 261. 3c 7c
+ 262. 3c 7d
+ 263. 3c 7h
+ 264. 3c 8s
+ 265. 3c 8c
+ 266. 3c 8d
+ 267. 3c 8h
+ 268. 3c 9s
+ 269. 3c 9c
+ 270. 3c 9d
+ 271. 3c 9h
+ 272. 3c Ts
+ 273. 3c Tc
+ 274. 3c Td
+ 275. 3c Th
+ 276. 3c Js
+ 277. 3c Jc
+ 278. 3c Jd
+ 279. 3c Jh
+ 280. 3c Qs
+ 281. 3c Qc
+ 282. 3c Qd
+ 283. 3c Qh
+ 284. 3c Ks
+ 285. 3c Kc
+ 286. 3c Kd
+ 287. 3c Kh
+ 288. 3c As
+ 289. 3c Ac
+ 290. 3c Ad
+ 291. 3c Ah
+ 292. 3d 3h
+ 293. 3d 4s
+ 294. 3d 4c
+ 295. 3d 4d
+ 296. 3d 4h
+ 297. 3d 5s
+ 298. 3d 5c
+ 299. 3d 5d
+ 300. 3d 5h
+ 301. 3d 6s
+ 302. 3d 6c
+ 303. 3d 6d
+ 304. 3d 6h
+ 305. 3d 7s
+ 306. 3d 7c
+ 307. 3d 7d
+ 308. 3d 7h
+ 309. 3d 8s
+ 310. 3d 8c
+ 311. 3d 8d
+ 312. 3d 8h
+ 313. 3d 9s
+ 314. 3d 9c
+ 315. 3d 9d
+ 316. 3d 9h
+ 317. 3d Ts
+ 318. 3d Tc
+ 319. 3d Td
+ 320. 3d Th
+ 321. 3d Js
+ 322. 3d Jc
+ 323. 3d Jd
+ 324. 3d Jh
+ 325. 3d Qs
+ 326. 3d Qc
+ 327. 3d Qd
+ 328. 3d Qh
+ 329. 3d Ks
+ 330. 3d Kc
+ 331. 3d Kd
+ 332. 3d Kh
+ 333. 3d As
+ 334. 3d Ac
+ 335. 3d Ad
+ 336. 3d Ah
+ 337. 3h 4s
+ 338. 3h 4c
+ 339. 3h 4d
+ 340. 3h 4h
+ 341. 3h 5s
+ 342. 3h 5c
+ 343. 3h 5d
+ 344. 3h 5h
+ 345. 3h 6s
+ 346. 3h 6c
+ 347. 3h 6d
+ 348. 3h 6h
+ 349. 3h 7s
+ 350. 3h 7c
+ 351. 3h 7d
+ 352. 3h 7h
+ 353. 3h 8s
+ 354. 3h 8c
+ 355. 3h 8d
+ 356. 3h 8h
+ 357. 3h 9s
+ 358. 3h 9c
+ 359. 3h 9d
+ 360. 3h 9h
+ 361. 3h Ts
+ 362. 3h Tc
+ 363. 3h Td
+ 364. 3h Th
+ 365. 3h Js
+ 366. 3h Jc
+ 367. 3h Jd
+ 368. 3h Jh
+ 369. 3h Qs
+ 370. 3h Qc
+ 371. 3h Qd
+ 372. 3h Qh
+ 373. 3h Ks
+ 374. 3h Kc
+ 375. 3h Kd
+ 376. 3h Kh
+ 377. 3h As
+ 378. 3h Ac
+ 379. 3h Ad
+ 380. 3h Ah
+ 381. 4s 4c
+ 382. 4s 4d
+ 383. 4s 4h
+ 384. 4s 5s
+ 385. 4s 5c
+ 386. 4s 5d
+ 387. 4s 5h
+ 388. 4s 6s
+ 389. 4s 6c
+ 390. 4s 6d
+ 391. 4s 6h
+ 392. 4s 7s
+ 393. 4s 7c
+ 394. 4s 7d
+ 395. 4s 7h
+ 396. 4s 8s
+ 397. 4s 8c
+ 398. 4s 8d
+ 399. 4s 8h
+ 400. 4s 9s
+ 401. 4s 9c
+ 402. 4s 9d
+ 403. 4s 9h
+ 404. 4s Ts
+ 405. 4s Tc
+ 406. 4s Td
+ 407. 4s Th
+ 408. 4s Js
+ 409. 4s Jc
+ 410. 4s Jd
+ 411. 4s Jh
+ 412. 4s Qs
+ 413. 4s Qc
+ 414. 4s Qd
+ 415. 4s Qh
+ 416. 4s Ks
+ 417. 4s Kc
+ 418. 4s Kd
+ 419. 4s Kh
+ 420. 4s As
+ 421. 4s Ac
+ 422. 4s Ad
+ 423. 4s Ah
+ 424. 4c 4d
+ 425. 4c 4h
+ 426. 4c 5s
+ 427. 4c 5c
+ 428. 4c 5d
+ 429. 4c 5h
+ 430. 4c 6s
+ 431. 4c 6c
+ 432. 4c 6d
+ 433. 4c 6h
+ 434. 4c 7s
+ 435. 4c 7c
+ 436. 4c 7d
+ 437. 4c 7h
+ 438. 4c 8s
+ 439. 4c 8c
+ 440. 4c 8d
+ 441. 4c 8h
+ 442. 4c 9s
+ 443. 4c 9c
+ 444. 4c 9d
+ 445. 4c 9h
+ 446. 4c Ts
+ 447. 4c Tc
+ 448. 4c Td
+ 449. 4c Th
+ 450. 4c Js
+ 451. 4c Jc
+ 452. 4c Jd
+ 453. 4c Jh
+ 454. 4c Qs
+ 455. 4c Qc
+ 456. 4c Qd
+ 457. 4c Qh
+ 458. 4c Ks
+ 459. 4c Kc
+ 460. 4c Kd
+ 461. 4c Kh
+ 462. 4c As
+ 463. 4c Ac
+ 464. 4c Ad
+ 465. 4c Ah
+ 466. 4d 4h
+ 467. 4d 5s
+ 468. 4d 5c
+ 469. 4d 5d
+ 470. 4d 5h
+ 471. 4d 6s
+ 472. 4d 6c
+ 473. 4d 6d
+ 474. 4d 6h
+ 475. 4d 7s
+ 476. 4d 7c
+ 477. 4d 7d
+ 478. 4d 7h
+ 479. 4d 8s
+ 480. 4d 8c
+ 481. 4d 8d
+ 482. 4d 8h
+ 483. 4d 9s
+ 484. 4d 9c
+ 485. 4d 9d
+ 486. 4d 9h
+ 487. 4d Ts
+ 488. 4d Tc
+ 489. 4d Td
+ 490. 4d Th
+ 491. 4d Js
+ 492. 4d Jc
+ 493. 4d Jd
+ 494. 4d Jh
+ 495. 4d Qs
+ 496. 4d Qc
+ 497. 4d Qd
+ 498. 4d Qh
+ 499. 4d Ks
+ 500. 4d Kc
+ 501. 4d Kd
+ 502. 4d Kh
+ 503. 4d As
+ 504. 4d Ac
+ 505. 4d Ad
+ 506. 4d Ah
+ 507. 4h 5s
+ 508. 4h 5c
+ 509. 4h 5d
+ 510. 4h 5h
+ 511. 4h 6s
+ 512. 4h 6c
+ 513. 4h 6d
+ 514. 4h 6h
+ 515. 4h 7s
+ 516. 4h 7c
+ 517. 4h 7d
+ 518. 4h 7h
+ 519. 4h 8s
+ 520. 4h 8c
+ 521. 4h 8d
+ 522. 4h 8h
+ 523. 4h 9s
+ 524. 4h 9c
+ 525. 4h 9d
+ 526. 4h 9h
+ 527. 4h Ts
+ 528. 4h Tc
+ 529. 4h Td
+ 530. 4h Th
+ 531. 4h Js
+ 532. 4h Jc
+ 533. 4h Jd
+ 534. 4h Jh
+ 535. 4h Qs
+ 536. 4h Qc
+ 537. 4h Qd
+ 538. 4h Qh
+ 539. 4h Ks
+ 540. 4h Kc
+ 541. 4h Kd
+ 542. 4h Kh
+ 543. 4h As
+ 544. 4h Ac
+ 545. 4h Ad
+ 546. 4h Ah
+ 547. 5s 5c
+ 548. 5s 5d
+ 549. 5s 5h
+ 550. 5s 6s
+ 551. 5s 6c
+ 552. 5s 6d
+ 553. 5s 6h
+ 554. 5s 7s
+ 555. 5s 7c
+ 556. 5s 7d
+ 557. 5s 7h
+ 558. 5s 8s
+ 559. 5s 8c
+ 560. 5s 8d
+ 561. 5s 8h
+ 562. 5s 9s
+ 563. 5s 9c
+ 564. 5s 9d
+ 565. 5s 9h
+ 566. 5s Ts
+ 567. 5s Tc
+ 568. 5s Td
+ 569. 5s Th
+ 570. 5s Js
+ 571. 5s Jc
+ 572. 5s Jd
+ 573. 5s Jh
+ 574. 5s Qs
+ 575. 5s Qc
+ 576. 5s Qd
+ 577. 5s Qh
+ 578. 5s Ks
+ 579. 5s Kc
+ 580. 5s Kd
+ 581. 5s Kh
+ 582. 5s As
+ 583. 5s Ac
+ 584. 5s Ad
+ 585. 5s Ah
+ 586. 5c 5d
+ 587. 5c 5h
+ 588. 5c 6s
+ 589. 5c 6c
+ 590. 5c 6d
+ 591. 5c 6h
+ 592. 5c 7s
+ 593. 5c 7c
+ 594. 5c 7d
+ 595. 5c 7h
+ 596. 5c 8s
+ 597. 5c 8c
+ 598. 5c 8d
+ 599. 5c 8h
+ 600. 5c 9s
+ 601. 5c 9c
+ 602. 5c 9d
+ 603. 5c 9h
+ 604. 5c Ts
+ 605. 5c Tc
+ 606. 5c Td
+ 607. 5c Th
+ 608. 5c Js
+ 609. 5c Jc
+ 610. 5c Jd
+ 611. 5c Jh
+ 612. 5c Qs
+ 613. 5c Qc
+ 614. 5c Qd
+ 615. 5c Qh
+ 616. 5c Ks
+ 617. 5c Kc
+ 618. 5c Kd
+ 619. 5c Kh
+ 620. 5c As
+ 621. 5c Ac
+ 622. 5c Ad
+ 623. 5c Ah
+ 624. 5d 5h
+ 625. 5d 6s
+ 626. 5d 6c
+ 627. 5d 6d
+ 628. 5d 6h
+ 629. 5d 7s
+ 630. 5d 7c
+ 631. 5d 7d
+ 632. 5d 7h
+ 633. 5d 8s
+ 634. 5d 8c
+ 635. 5d 8d
+ 636. 5d 8h
+ 637. 5d 9s
+ 638. 5d 9c
+ 639. 5d 9d
+ 640. 5d 9h
+ 641. 5d Ts
+ 642. 5d Tc
+ 643. 5d Td
+ 644. 5d Th
+ 645. 5d Js
+ 646. 5d Jc
+ 647. 5d Jd
+ 648. 5d Jh
+ 649. 5d Qs
+ 650. 5d Qc
+ 651. 5d Qd
+ 652. 5d Qh
+ 653. 5d Ks
+ 654. 5d Kc
+ 655. 5d Kd
+ 656. 5d Kh
+ 657. 5d As
+ 658. 5d Ac
+ 659. 5d Ad
+ 660. 5d Ah
+ 661. 5h 6s
+ 662. 5h 6c
+ 663. 5h 6d
+ 664. 5h 6h
+ 665. 5h 7s
+ 666. 5h 7c
+ 667. 5h 7d
+ 668. 5h 7h
+ 669. 5h 8s
+ 670. 5h 8c
+ 671. 5h 8d
+ 672. 5h 8h
+ 673. 5h 9s
+ 674. 5h 9c
+ 675. 5h 9d
+ 676. 5h 9h
+ 677. 5h Ts
+ 678. 5h Tc
+ 679. 5h Td
+ 680. 5h Th
+ 681. 5h Js
+ 682. 5h Jc
+ 683. 5h Jd
+ 684. 5h Jh
+ 685. 5h Qs
+ 686. 5h Qc
+ 687. 5h Qd
+ 688. 5h Qh
+ 689. 5h Ks
+ 690. 5h Kc
+ 691. 5h Kd
+ 692. 5h Kh
+ 693. 5h As
+ 694. 5h Ac
+ 695. 5h Ad
+ 696. 5h Ah
+ 697. 6s 6c
+ 698. 6s 6d
+ 699. 6s 6h
+ 700. 6s 7s
+ 701. 6s 7c
+ 702. 6s 7d
+ 703. 6s 7h
+ 704. 6s 8s
+ 705. 6s 8c
+ 706. 6s 8d
+ 707. 6s 8h
+ 708. 6s 9s
+ 709. 6s 9c
+ 710. 6s 9d
+ 711. 6s 9h
+ 712. 6s Ts
+ 713. 6s Tc
+ 714. 6s Td
+ 715. 6s Th
+ 716. 6s Js
+ 717. 6s Jc
+ 718. 6s Jd
+ 719. 6s Jh
+ 720. 6s Qs
+ 721. 6s Qc
+ 722. 6s Qd
+ 723. 6s Qh
+ 724. 6s Ks
+ 725. 6s Kc
+ 726. 6s Kd
+ 727. 6s Kh
+ 728. 6s As
+ 729. 6s Ac
+ 730. 6s Ad
+ 731. 6s Ah
+ 732. 6c 6d
+ 733. 6c 6h
+ 734. 6c 7s
+ 735. 6c 7c
+ 736. 6c 7d
+ 737. 6c 7h
+ 738. 6c 8s
+ 739. 6c 8c
+ 740. 6c 8d
+ 741. 6c 8h
+ 742. 6c 9s
+ 743. 6c 9c
+ 744. 6c 9d
+ 745. 6c 9h
+ 746. 6c Ts
+ 747. 6c Tc
+ 748. 6c Td
+ 749. 6c Th
+ 750. 6c Js
+ 751. 6c Jc
+ 752. 6c Jd
+ 753. 6c Jh
+ 754. 6c Qs
+ 755. 6c Qc
+ 756. 6c Qd
+ 757. 6c Qh
+ 758. 6c Ks
+ 759. 6c Kc
+ 760. 6c Kd
+ 761. 6c Kh
+ 762. 6c As
+ 763. 6c Ac
+ 764. 6c Ad
+ 765. 6c Ah
+ 766. 6d 6h
+ 767. 6d 7s
+ 768. 6d 7c
+ 769. 6d 7d
+ 770. 6d 7h
+ 771. 6d 8s
+ 772. 6d 8c
+ 773. 6d 8d
+ 774. 6d 8h
+ 775. 6d 9s
+ 776. 6d 9c
+ 777. 6d 9d
+ 778. 6d 9h
+ 779. 6d Ts
+ 780. 6d Tc
+ 781. 6d Td
+ 782. 6d Th
+ 783. 6d Js
+ 784. 6d Jc
+ 785. 6d Jd
+ 786. 6d Jh
+ 787. 6d Qs
+ 788. 6d Qc
+ 789. 6d Qd
+ 790. 6d Qh
+ 791. 6d Ks
+ 792. 6d Kc
+ 793. 6d Kd
+ 794. 6d Kh
+ 795. 6d As
+ 796. 6d Ac
+ 797. 6d Ad
+ 798. 6d Ah
+ 799. 6h 7s
+ 800. 6h 7c
+ 801. 6h 7d
+ 802. 6h 7h
+ 803. 6h 8s
+ 804. 6h 8c
+ 805. 6h 8d
+ 806. 6h 8h
+ 807. 6h 9s
+ 808. 6h 9c
+ 809. 6h 9d
+ 810. 6h 9h
+ 811. 6h Ts
+ 812. 6h Tc
+ 813. 6h Td
+ 814. 6h Th
+ 815. 6h Js
+ 816. 6h Jc
+ 817. 6h Jd
+ 818. 6h Jh
+ 819. 6h Qs
+ 820. 6h Qc
+ 821. 6h Qd
+ 822. 6h Qh
+ 823. 6h Ks
+ 824. 6h Kc
+ 825. 6h Kd
+ 826. 6h Kh
+ 827. 6h As
+ 828. 6h Ac
+ 829. 6h Ad
+ 830. 6h Ah
+ 831. 7s 7c
+ 832. 7s 7d
+ 833. 7s 7h
+ 834. 7s 8s
+ 835. 7s 8c
+ 836. 7s 8d
+ 837. 7s 8h
+ 838. 7s 9s
+ 839. 7s 9c
+ 840. 7s 9d
+ 841. 7s 9h
+ 842. 7s Ts
+ 843. 7s Tc
+ 844. 7s Td
+ 845. 7s Th
+ 846. 7s Js
+ 847. 7s Jc
+ 848. 7s Jd
+ 849. 7s Jh
+ 850. 7s Qs
+ 851. 7s Qc
+ 852. 7s Qd
+ 853. 7s Qh
+ 854. 7s Ks
+ 855. 7s Kc
+ 856. 7s Kd
+ 857. 7s Kh
+ 858. 7s As
+ 859. 7s Ac
+ 860. 7s Ad
+ 861. 7s Ah
+ 862. 7c 7d
+ 863. 7c 7h
+ 864. 7c 8s
+ 865. 7c 8c
+ 866. 7c 8d
+ 867. 7c 8h
+ 868. 7c 9s
+ 869. 7c 9c
+ 870. 7c 9d
+ 871. 7c 9h
+ 872. 7c Ts
+ 873. 7c Tc
+ 874. 7c Td
+ 875. 7c Th
+ 876. 7c Js
+ 877. 7c Jc
+ 878. 7c Jd
+ 879. 7c Jh
+ 880. 7c Qs
+ 881. 7c Qc
+ 882. 7c Qd
+ 883. 7c Qh
+ 884. 7c Ks
+ 885. 7c Kc
+ 886. 7c Kd
+ 887. 7c Kh
+ 888. 7c As
+ 889. 7c Ac
+ 890. 7c Ad
+ 891. 7c Ah
+ 892. 7d 7h
+ 893. 7d 8s
+ 894. 7d 8c
+ 895. 7d 8d
+ 896. 7d 8h
+ 897. 7d 9s
+ 898. 7d 9c
+ 899. 7d 9d
+ 900. 7d 9h
+ 901. 7d Ts
+ 902. 7d Tc
+ 903. 7d Td
+ 904. 7d Th
+ 905. 7d Js
+ 906. 7d Jc
+ 907. 7d Jd
+ 908. 7d Jh
+ 909. 7d Qs
+ 910. 7d Qc
+ 911. 7d Qd
+ 912. 7d Qh
+ 913. 7d Ks
+ 914. 7d Kc
+ 915. 7d Kd
+ 916. 7d Kh
+ 917. 7d As
+ 918. 7d Ac
+ 919. 7d Ad
+ 920. 7d Ah
+ 921. 7h 8s
+ 922. 7h 8c
+ 923. 7h 8d
+ 924. 7h 8h
+ 925. 7h 9s
+ 926. 7h 9c
+ 927. 7h 9d
+ 928. 7h 9h
+ 929. 7h Ts
+ 930. 7h Tc
+ 931. 7h Td
+ 932. 7h Th
+ 933. 7h Js
+ 934. 7h Jc
+ 935. 7h Jd
+ 936. 7h Jh
+ 937. 7h Qs
+ 938. 7h Qc
+ 939. 7h Qd
+ 940. 7h Qh
+ 941. 7h Ks
+ 942. 7h Kc
+ 943. 7h Kd
+ 944. 7h Kh
+ 945. 7h As
+ 946. 7h Ac
+ 947. 7h Ad
+ 948. 7h Ah
+ 949. 8s 8c
+ 950. 8s 8d
+ 951. 8s 8h
+ 952. 8s 9s
+ 953. 8s 9c
+ 954. 8s 9d
+ 955. 8s 9h
+ 956. 8s Ts
+ 957. 8s Tc
+ 958. 8s Td
+ 959. 8s Th
+ 960. 8s Js
+ 961. 8s Jc
+ 962. 8s Jd
+ 963. 8s Jh
+ 964. 8s Qs
+ 965. 8s Qc
+ 966. 8s Qd
+ 967. 8s Qh
+ 968. 8s Ks
+ 969. 8s Kc
+ 970. 8s Kd
+ 971. 8s Kh
+ 972. 8s As
+ 973. 8s Ac
+ 974. 8s Ad
+ 975. 8s Ah
+ 976. 8c 8d
+ 977. 8c 8h
+ 978. 8c 9s
+ 979. 8c 9c
+ 980. 8c 9d
+ 981. 8c 9h
+ 982. 8c Ts
+ 983. 8c Tc
+ 984. 8c Td
+ 985. 8c Th
+ 986. 8c Js
+ 987. 8c Jc
+ 988. 8c Jd
+ 989. 8c Jh
+ 990. 8c Qs
+ 991. 8c Qc
+ 992. 8c Qd
+ 993. 8c Qh
+ 994. 8c Ks
+ 995. 8c Kc
+ 996. 8c Kd
+ 997. 8c Kh
+ 998. 8c As
+ 999. 8c Ac
+1000. 8c Ad
+1001. 8c Ah
+1002. 8d 8h
+1003. 8d 9s
+1004. 8d 9c
+1005. 8d 9d
+1006. 8d 9h
+1007. 8d Ts
+1008. 8d Tc
+1009. 8d Td
+1010. 8d Th
+1011. 8d Js
+1012. 8d Jc
+1013. 8d Jd
+1014. 8d Jh
+1015. 8d Qs
+1016. 8d Qc
+1017. 8d Qd
+1018. 8d Qh
+1019. 8d Ks
+1020. 8d Kc
+1021. 8d Kd
+1022. 8d Kh
+1023. 8d As
+1024. 8d Ac
+1025. 8d Ad
+1026. 8d Ah
+1027. 8h 9s
+1028. 8h 9c
+1029. 8h 9d
+1030. 8h 9h
+1031. 8h Ts
+1032. 8h Tc
+1033. 8h Td
+1034. 8h Th
+1035. 8h Js
+1036. 8h Jc
+1037. 8h Jd
+1038. 8h Jh
+1039. 8h Qs
+1040. 8h Qc
+1041. 8h Qd
+1042. 8h Qh
+1043. 8h Ks
+1044. 8h Kc
+1045. 8h Kd
+1046. 8h Kh
+1047. 8h As
+1048. 8h Ac
+1049. 8h Ad
+1050. 8h Ah
+1051. 9s 9c
+1052. 9s 9d
+1053. 9s 9h
+1054. 9s Ts
+1055. 9s Tc
+1056. 9s Td
+1057. 9s Th
+1058. 9s Js
+1059. 9s Jc
+1060. 9s Jd
+1061. 9s Jh
+1062. 9s Qs
+1063. 9s Qc
+1064. 9s Qd
+1065. 9s Qh
+1066. 9s Ks
+1067. 9s Kc
+1068. 9s Kd
+1069. 9s Kh
+1070. 9s As
+1071. 9s Ac
+1072. 9s Ad
+1073. 9s Ah
+1074. 9c 9d
+1075. 9c 9h
+1076. 9c Ts
+1077. 9c Tc
+1078. 9c Td
+1079. 9c Th
+1080. 9c Js
+1081. 9c Jc
+1082. 9c Jd
+1083. 9c Jh
+1084. 9c Qs
+1085. 9c Qc
+1086. 9c Qd
+1087. 9c Qh
+1088. 9c Ks
+1089. 9c Kc
+1090. 9c Kd
+1091. 9c Kh
+1092. 9c As
+1093. 9c Ac
+1094. 9c Ad
+1095. 9c Ah
+1096. 9d 9h
+1097. 9d Ts
+1098. 9d Tc
+1099. 9d Td
+1100. 9d Th
+1101. 9d Js
+1102. 9d Jc
+1103. 9d Jd
+1104. 9d Jh
+1105. 9d Qs
+1106. 9d Qc
+1107. 9d Qd
+1108. 9d Qh
+1109. 9d Ks
+1110. 9d Kc
+1111. 9d Kd
+1112. 9d Kh
+1113. 9d As
+1114. 9d Ac
+1115. 9d Ad
+1116. 9d Ah
+1117. 9h Ts
+1118. 9h Tc
+1119. 9h Td
+1120. 9h Th
+1121. 9h Js
+1122. 9h Jc
+1123. 9h Jd
+1124. 9h Jh
+1125. 9h Qs
+1126. 9h Qc
+1127. 9h Qd
+1128. 9h Qh
+1129. 9h Ks
+1130. 9h Kc
+1131. 9h Kd
+1132. 9h Kh
+1133. 9h As
+1134. 9h Ac
+1135. 9h Ad
+1136. 9h Ah
+1137. Ts Tc
+1138. Ts Td
+1139. Ts Th
+1140. Ts Js
+1141. Ts Jc
+1142. Ts Jd
+1143. Ts Jh
+1144. Ts Qs
+1145. Ts Qc
+1146. Ts Qd
+1147. Ts Qh
+1148. Ts Ks
+1149. Ts Kc
+1150. Ts Kd
+1151. Ts Kh
+1152. Ts As
+1153. Ts Ac
+1154. Ts Ad
+1155. Ts Ah
+1156. Tc Td
+1157. Tc Th
+1158. Tc Js
+1159. Tc Jc
+1160. Tc Jd
+1161. Tc Jh
+1162. Tc Qs
+1163. Tc Qc
+1164. Tc Qd
+1165. Tc Qh
+1166. Tc Ks
+1167. Tc Kc
+1168. Tc Kd
+1169. Tc Kh
+1170. Tc As
+1171. Tc Ac
+1172. Tc Ad
+1173. Tc Ah
+1174. Td Th
+1175. Td Js
+1176. Td Jc
+1177. Td Jd
+1178. Td Jh
+1179. Td Qs
+1180. Td Qc
+1181. Td Qd
+1182. Td Qh
+1183. Td Ks
+1184. Td Kc
+1185. Td Kd
+1186. Td Kh
+1187. Td As
+1188. Td Ac
+1189. Td Ad
+1190. Td Ah
+1191. Th Js
+1192. Th Jc
+1193. Th Jd
+1194. Th Jh
+1195. Th Qs
+1196. Th Qc
+1197. Th Qd
+1198. Th Qh
+1199. Th Ks
+1200. Th Kc
+1201. Th Kd
+1202. Th Kh
+1203. Th As
+1204. Th Ac
+1205. Th Ad
+1206. Th Ah
+1207. Js Jc
+1208. Js Jd
+1209. Js Jh
+1210. Js Qs
+1211. Js Qc
+1212. Js Qd
+1213. Js Qh
+1214. Js Ks
+1215. Js Kc
+1216. Js Kd
+1217. Js Kh
+1218. Js As
+1219. Js Ac
+1220. Js Ad
+1221. Js Ah
+1222. Jc Jd
+1223. Jc Jh
+1224. Jc Qs
+1225. Jc Qc
+1226. Jc Qd
+1227. Jc Qh
+1228. Jc Ks
+1229. Jc Kc
+1230. Jc Kd
+1231. Jc Kh
+1232. Jc As
+1233. Jc Ac
+1234. Jc Ad
+1235. Jc Ah
+1236. Jd Jh
+1237. Jd Qs
+1238. Jd Qc
+1239. Jd Qd
+1240. Jd Qh
+1241. Jd Ks
+1242. Jd Kc
+1243. Jd Kd
+1244. Jd Kh
+1245. Jd As
+1246. Jd Ac
+1247. Jd Ad
+1248. Jd Ah
+1249. Jh Qs
+1250. Jh Qc
+1251. Jh Qd
+1252. Jh Qh
+1253. Jh Ks
+1254. Jh Kc
+1255. Jh Kd
+1256. Jh Kh
+1257. Jh As
+1258. Jh Ac
+1259. Jh Ad
+1260. Jh Ah
+1261. Qs Qc
+1262. Qs Qd
+1263. Qs Qh
+1264. Qs Ks
+1265. Qs Kc
+1266. Qs Kd
+1267. Qs Kh
+1268. Qs As
+1269. Qs Ac
+1270. Qs Ad
+1271. Qs Ah
+1272. Qc Qd
+1273. Qc Qh
+1274. Qc Ks
+1275. Qc Kc
+1276. Qc Kd
+1277. Qc Kh
+1278. Qc As
+1279. Qc Ac
+1280. Qc Ad
+1281. Qc Ah
+1282. Qd Qh
+1283. Qd Ks
+1284. Qd Kc
+1285. Qd Kd
+1286. Qd Kh
+1287. Qd As
+1288. Qd Ac
+1289. Qd Ad
+1290. Qd Ah
+1291. Qh Ks
+1292. Qh Kc
+1293. Qh Kd
+1294. Qh Kh
+1295. Qh As
+1296. Qh Ac
+1297. Qh Ad
+1298. Qh Ah
+1299. Ks Kc
+1300. Ks Kd
+1301. Ks Kh
+1302. Ks As
+1303. Ks Ac
+1304. Ks Ad
+1305. Ks Ah
+1306. Kc Kd
+1307. Kc Kh
+1308. Kc As
+1309. Kc Ac
+1310. Kc Ad
+1311. Kc Ah
+1312. Kd Kh
+1313. Kd As
+1314. Kd Ac
+1315. Kd Ad
+1316. Kd Ah
+1317. Kh As
+1318. Kh Ac
+1319. Kh Ad
+1320. Kh Ah
+1321. As Ac
+1322. As Ad
+1323. As Ah
+1324. Ac Ad
+1325. Ac Ah
+1326. Ad Ah
