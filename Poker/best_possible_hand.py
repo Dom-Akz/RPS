@@ -1,6 +1,11 @@
+"""
+From a given board (full 5 card) it give u the best possible hand rank
+"""
+
 from pokerlib import HandParser
 from pokerlib.enums import Rank, Suit
 from itertools import combinations, product
+
 
 RANK = {
     1: "HIGHCARD",
@@ -39,14 +44,14 @@ STR_SUIT = {
 }
 
 
-# generate all possible combos exluding the board card
+# generate all possible combos excluding the board card
 def get_all_combos(board):
     board_set = set(board)
     remaining_deck = [c for c in product(Rank, Suit) if c not in board_set]
     return tuple(combinations(remaining_deck, 2))
 
 
-# return the max rank a hand can have base on the board (string)
+# return the max hand rank possible base on the board (string)
 def max_rank(board):
     max = 1  # min hand rank
 
