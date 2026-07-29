@@ -85,7 +85,6 @@ STR_MOVE = {
     "S": "Split",
     "R": "Surrender if allowed otherwise hit",
     "RS": "Surrender if allowed otherwise stand",
-    "": "NONE",
 }
 
 # Table rule
@@ -111,10 +110,10 @@ def is_valid_card(card: str):
 
 
 # get user hand
-def get_hand():
-    card = str(input(f"Enter the hand: "))
-    if not is_valid_card(card):
-        die(f"Error: {card} is invalid")
+def get_hand(who: str):
+    card = str(input(f"Enter the {who} hand: "))
+    # if not is_valid_card(card):
+    #  die(f"Error: {card} is invalid")
     return card
 
 
@@ -138,10 +137,8 @@ def make_move(p_card, d_card, t_rule):
 
     if t_rule == "stand":
         move = get_action("2_decks_stand_soft_17", hand_type, p_card, d_card)
-
-    # hits soft 17
     else:
-        move = get_action("2_deck_hit_soft_17", hand_type, p_card, d_card)
+        move = get_action("1_deck_hit_soft_17", hand_type, p_card, d_card)
 
     return STR_MOVE.get(move)
 
@@ -153,16 +150,16 @@ def main():
 
     # getting the user input
     table_rule = str(
-        input("table rule (Stand on 17: stand) (Hits soft 17: hit): ").strip().lower()
+        input("table rule (Stand on 17: s) (Hits soft 17: h): ").strip().lower()
     )
-    if table_rule != "stand" or table_rule != "hit":
+    if table_rule != "s" and table_rule != "h":
         die("Entre a valid choice")
 
     print("\nTable rule is: ", T_RULE.get(table_rule))
 
-    player_hand = get_hand()
+    player_hand = get_hand("player")
 
-    dealer_up_card = get_hand()
+    dealer_up_card = get_hand("dealer")
 
     mv = make_move(player_hand, dealer_up_card, table_rule)
 
