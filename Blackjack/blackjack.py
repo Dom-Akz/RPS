@@ -113,7 +113,7 @@ def is_valid_card(card: str):
 def get_hand(who: str):
     card = str(input(f"Enter the {who} hand: "))
     # if not is_valid_card(card):
-    #  die(f"Error: {card} is invalid")
+    #  die(f"Error: hand {card} is invalid")
     return card
 
 
@@ -164,7 +164,8 @@ def main():
     mv = make_move(player_hand, dealer_up_card, table_rule)
 
     while mv == "Hit":
-        player_hand = get_hand()
+        print("u need to hit")
+        player_hand = get_hand("player")
         mv = make_move(player_hand, dealer_up_card, table_rule)
 
     print(f"Best move: {mv}")
