@@ -5,22 +5,32 @@ import os
 LOG_PATH = "/home/soufiane/.local/share/keylogger/kb.log"
 OUT_FILE = "/home/soufiane/.local/share/keylogger/d-kb.txt"
 
+# TODO: create all special char
+SP_CAHR = ""
+
 
 # helper to get the char
 # format example:  key press: KEY_UP
 def decode(line):
-    new_line = line.split(":")
-
+    new_line = line.split("_")
     # check if it a SPACE/ENTER/BACKSPACE
-    if new_line[0] == "SPACE":
+    if new_line[1] == "SPACE":
         return " "
-    elif new_line[0] == "ENTRE":
+    elif new_line[1] == "ENTRE":
         return "\n"
 
-    if new_line[0] == "BACKSPACE":
+    if new_line[1] == "BACKSPACE":
         return "BACKSPACE"
 
-    return new_line[0]
+    if new_line in SP_CAHR:
+        return ""
+
+    return new_line[1]
+
+
+def f_write(content):
+    with open(OUT_FILE, "w") as file:
+        file.write(content)
 
 
 def main():
@@ -32,24 +42,31 @@ def main():
         print(f"Error: try creating {OUT_FILE} first")
         exit(1)
 
-    # load log
-    with open(LOG_PATH, "r") as log_file:
-        logs = log_file.read()
+    with open(OUT_FILE, "r") as f:
+        out_file = f.read()
 
-    # what is the best approche (with inside loop or the opposite)
-    with open(OUT_FILE, "rw") as out_file:
+    with open(LOG_PATH, "r") as logs:
+        if not logs:
+            print("Error: logs are empty")
+            exit(1)
+
         for log in logs:
+            log = log.strip()
+            if "key press" not in log:
+                continue
+
             ch = decode(log)
             # check if the ch is SPACE/ENTRE/BACKSPACE
             if ch == "BACKSPACE":
                 # take the last caracter out
-                pass
+                if out_file:
+                    f_write(out_file[:-1])
             else:
-                out_file.write(ch)
+                out_file += ch
+                f_write(out_file)
 
     print(f"log has been decode see {OUT_FILE}")
 
 
 if __name__ == "__main__":
     main()
-
