@@ -1,29 +1,63 @@
-# read keybaord log from a file and convert it to a readlble text
+# read keybaord log from a file and convert it to a readlble text (skip stuff like volumeup or delete button)
 
-import os
 
 LOG_PATH = "/home/soufiane/.local/share/keylogger/kb.log"
 OUT_FILE = "/home/soufiane/.local/share/keylogger/d-kb.txt"
 
-# TODO: create all special char
-SP_CAHR = ""
+# create this so i can skip them when decoding
+SP_CAHR = [
+    "UP",
+    "LEFT",
+    "RIGHT",
+    "DOWN",
+    "LEFTSHIFT",
+    "RIGHTCTRL",
+    "RIGHTALT",
+    "HOME",
+    "DELETE",
+    "GRAVE",
+    "END",
+    "PAGEUP",
+    "PAGEDOWN",
+    "VOLUMEUP",
+    "VOLUMEDOWN",
+    "APOSTROPHEP",
+    "SWITCHVIDEOMODE",
+    "MICMUTE",
+    "VOLUMEMUTE",
+    "MINUS",
+    "BRIGHTNESSUP",
+    "BRIGHTNESSDOWN",
+    "RIGHTBRACE",
+    "KEY_LEFTBRACE",
+    "LEFTMETA",
+    "TAB",
+]
 
 
 # helper to get the char
 # format example:  key press: KEY_UP
 def decode(line):
     new_line = line.split("_")
+
     # check if it a SPACE/ENTER/BACKSPACE
     if new_line[1] == "SPACE":
         return " "
     elif new_line[1] == "ENTRE":
         return "\n"
-
     if new_line[1] == "BACKSPACE":
         return "BACKSPACE"
 
     if new_line in SP_CAHR:
         return ""
+    if new_line[1] == "DOT":
+        return "."
+    if new_line[1] == "SLASH":
+        return '"'
+    if new_line[1] == "COMAA":
+        return ","
+    if new_line[1] == "EQUAL":
+        return "="
 
     return new_line[1]
 
@@ -35,6 +69,8 @@ def f_write(content):
 
 def main():
     # check if every file exist
+    import os
+
     if not os.path.exists(LOG_PATH):
         print(f"Error: try creating {LOG_PATH} first")
         exit(1)
@@ -56,7 +92,6 @@ def main():
                 continue
 
             ch = decode(log)
-            # check if the ch is SPACE/ENTRE/BACKSPACE
             if ch == "BACKSPACE":
                 # take the last caracter out
                 if out_file:
