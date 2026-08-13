@@ -4,34 +4,39 @@
 LOG_PATH = "/home/soufiane/.local/share/keylogger/kb.log"
 OUT_FILE = "/home/soufiane/.local/share/keylogger/d-kb.txt"
 
-# create this so i can skip them when decoding
+# skip them when decoding
 SP_CAHR = [
     "UP",
     "LEFT",
     "RIGHT",
     "DOWN",
     "LEFTSHIFT",
+    "LEFTCTRL",
     "RIGHTCTRL",
     "RIGHTALT",
     "HOME",
     "DELETE",
     "GRAVE",
     "END",
+    "ESC",
     "PAGEUP",
+    "MINUS",
     "PAGEDOWN",
     "VOLUMEUP",
     "VOLUMEDOWN",
-    "APOSTROPHEP",
+    "APOSTROPHE",
     "SWITCHVIDEOMODE",
     "MICMUTE",
     "VOLUMEMUTE",
-    "MINUS",
     "BRIGHTNESSUP",
     "BRIGHTNESSDOWN",
     "RIGHTBRACE",
-    "KEY_LEFTBRACE",
+    "LEFTBRACE",
     "LEFTMETA",
-    "TAB",
+    "LEFTBRACETAB",
+    "SEMICOLON",
+    "102ND",
+    "BACKSLASH",
 ]
 
 
@@ -40,21 +45,21 @@ SP_CAHR = [
 def decode(line):
     new_line = line.split("_")
 
+    if new_line[1] in SP_CAHR:
+        return ""
+
     # check if it a SPACE/ENTER/BACKSPACE
     if new_line[1] == "SPACE":
         return " "
-    elif new_line[1] == "ENTRE":
+    if new_line[1] == "ENTER":
         return "\n"
     if new_line[1] == "BACKSPACE":
         return "BACKSPACE"
-
-    if new_line in SP_CAHR:
-        return ""
     if new_line[1] == "DOT":
         return "."
     if new_line[1] == "SLASH":
-        return '"'
-    if new_line[1] == "COMAA":
+        return "/"
+    if new_line[1] == "COMMA":
         return ","
     if new_line[1] == "EQUAL":
         return "="
@@ -68,9 +73,9 @@ def f_write(content):
 
 
 def main():
-    # check if every file exist
     import os
 
+    # check if every file exist
     if not os.path.exists(LOG_PATH):
         print(f"Error: try creating {LOG_PATH} first")
         exit(1)
@@ -97,7 +102,7 @@ def main():
                 if out_file:
                     f_write(out_file[:-1])
             else:
-                out_file += ch
+                out_file += ch.lower()
                 f_write(out_file)
 
     print(f"log has been decode see {OUT_FILE}")

