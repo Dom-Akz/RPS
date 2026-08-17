@@ -1,10 +1,10 @@
-# read keybaord log from a file and convert it to a readlble text (skip stuff like volumeup or delete button)
+# read keybaord log from a file and convert it to a readlble text
 
 
 LOG_PATH = "/home/soufiane/.local/share/keylogger/kb.log"
 OUT_FILE = "/home/soufiane/.local/share/keylogger/d-kb.txt"
 
-# skip them when decoding
+# skip this
 SP_CAHR = [
     "UP",
     "LEFT",
@@ -40,7 +40,6 @@ SP_CAHR = [
 ]
 
 
-# helper to get the char
 # format example:  key press: KEY_UP
 def decode(line):
     new_line = line.split("_")
@@ -48,13 +47,13 @@ def decode(line):
     if new_line[1] in SP_CAHR:
         return ""
 
-    # check if it a SPACE/ENTER/BACKSPACE
     if new_line[1] == "SPACE":
         return " "
     if new_line[1] == "ENTER":
         return "\n"
     if new_line[1] == "BACKSPACE":
         return "BACKSPACE"
+
     if new_line[1] == "DOT":
         return "."
     if new_line[1] == "SLASH":
@@ -88,7 +87,7 @@ def main():
 
     with open(LOG_PATH, "r") as logs:
         if not logs:
-            print("Error: logs are empty")
+            print(f"Error: {LOG_PATH} file is empty")
             exit(1)
 
         for log in logs:
@@ -105,7 +104,7 @@ def main():
                 out_file += ch.lower()
                 f_write(out_file)
 
-    print(f"log has been decode see {OUT_FILE}")
+    print(f"log has been decoded see: {OUT_FILE}")
 
 
 if __name__ == "__main__":
