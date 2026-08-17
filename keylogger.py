@@ -1,10 +1,11 @@
-# log keyboard + screenshot every 3s
+# log keyboard + screenshot
 
 import sys
 from evdev import InputDevice, categorize, ecodes
 import threading
 import subprocess
 import time
+
 
 KEYBOARD_PATH = "/dev/input/by-path/platform-i8042-serio-0-event-kbd"
 KEYBOARD_LOG_PATH = "/home/soufiane/.local/share/keylogger/kb.log"
@@ -34,6 +35,7 @@ def keyboard_logger():
                 log_to_file(KEYBOARD_LOG_PATH, f"key press: {key_event.keycode}")
 
 
+# take a full screen shot every 3s using grim
 def screen_logger():
     import os
 
@@ -51,17 +53,17 @@ def screen_logger():
             )
 
         except subprocess.CalledProcessError as e:
-            print(f"Error: flameshot did not run successfully")
+            print("Error: grim did not run successfully")
 
 
 def main():
 
     # thread
     th1 = threading.Thread(target=keyboard_logger, daemon=True)
-    # th2 = threading.Thread(target=screen_logger, daemon=True)
+    th2 = threading.Thread(target=screen_logger, daemon=True)
 
     th1.start()
-    # th2.start()
+    th2.start()
 
     while True:
         pass
